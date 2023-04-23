@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display+SC&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html{ 
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    background: #C9F4AA;
+
+    margin: 0;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.container{
+    padding: 1rem;
+    right: 0;
+    position:static;
+    width: 100%;
+    gap: 4rem;
+
+}
+li{
+    list-style: none;
+}
+
+
+.hero_img{
+    background: url(/images/ImpossibleSpeedyElephant-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 650px;
+    /* top: 5%; */
+    position: relative;
+}
+.img_text{
+    /* margin-top: 18rem; */
+    top: 72%;
+    position: absolute;
+}
+/* .card{
+    flex-grow: 1;
+} */
+.about_content{
+   
+    position:static;
+}
+.about_text{
+    overflow-y: scroll;
+}
+.about_content{
+    position: relative;
+}
+#a{
+    width:300px ;
+    height:150px;
+}
+.card{
+    border-style: solid;
+    border-color: white;
+    
+}
+
+@media only screen and (max-width:700px) {
+    .servicecaards{
+        display: flex;
+        flex-direction: column;
+        /* flex-flow: wrap; */
+        justify-content: space-around;
+    }
+
+    .about_header{
+        margin-top: 0;
+    }  
+
+    .about{
+        margin-top: 0.5rem !important;
+    }
+
+    .about_parent{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-flow: wrap; */
+        margin-top: 0;
+        justify-content: space-around;
+    }
+
+    .about_text{
+        margin:auto;
+        margin-top: 1rem;
+        width: 85vw;
+    }
+    /* .card{
+        width:50%;
+    } */
+}
+
+
+@media only screen and (max-width:498px){
+    .img_text{
+        margin-left: 1rem !important;
+    }
+    .quote{
+        font-size: 1.2rem;
+    }
+    .slogan{
+        font-size:2.5rem;
+        white-space: nowrap;
+    }
+
+    .heading{
+        font-size: 1.8rem;
+    }
+    .about{
+        font-size: 2.8rem;
+    }
+    .service_h1{
+        font-size: 2.8rem !important;
+        white-space: nowrap;
+    }
+    .contact_heading{
+        font-size: 2.8rem;
+    }
+    .contact_block{
+        padding: 1rem !important;
+    }
+    .contact_h{
+        margin-left: 0.5rem !important;
+    }
+    .contact_p{
+        margin-left: 0.5rem !important;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .img_text{
+        margin-left: 1rem !important;
+    }
+    .quote{
+        font-size: 1.2rem;
+    }
+    .slogan{
+        font-size:2rem;
+        white-space: nowrap;
+    }
+}
