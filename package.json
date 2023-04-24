@@ -2,7 +2,7 @@
   "name": "remine",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build":"tailwindcss build -i ./src/tailwind.css -o ./public/style.css"
   },
