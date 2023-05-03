@@ -33,12 +33,11 @@ li{
 }
 
 .hero_img{
-    background: url(../images/ImpossibleSpeedyElephant-size_restricted.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    height: 650px;
-    
+    background: url(../images/ImpossibleSpeedyElephant-size_restricted.gif) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: 50% !important;
+    height: 650px !important;
     position: relative;
 }
 .img_text{
