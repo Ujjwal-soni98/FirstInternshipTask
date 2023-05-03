@@ -33,7 +33,7 @@ li{
 }
 
 .hero_img{
-    background: url(/images/ImpossibleSpeedyElephant-size_restricted.gif);
+    background: url(../images/ImpossibleSpeedyElephant-size_restricted.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
